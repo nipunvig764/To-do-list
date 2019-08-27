@@ -1,0 +1,21 @@
+
+<form (ngSubmit)="onSignup(f)" #f="ngForm">
+  <div class="row">
+    <div class="input-field col s12">
+      <i class="material-icons prefix">email</i>
+      <input id="icon_prefix" type="email" name="email" class="validate" ngModel>
+      <label for="icon_prefix">Email</label>
+    </div>
+  </div>
+    <div class="row">
+        <div class="input-field col s12">
+            <i class="material-icons prefix">person_pin</i>
+          <input id="password" type="password" name="password" ngModel>
+          <label for="password">Password</label>
+        </div>
+    </div>
+<button class="btn waves-effect waves-light" type="submit" name="action">Register
+    <i class="material-icons right">perm_identity</i>
+</button>
+            
+</form>

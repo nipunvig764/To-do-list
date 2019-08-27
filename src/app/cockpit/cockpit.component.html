@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-xs-12">
+        <p>Add server or blue prints</p>
+        <label>Server Name</label>
+        <input type="text" class="form-control"(input)="onUpdateServerName($event)">
+        <label>Server Content</label>
+        <input type="text" class="form-control" (input)="onUpdateServerContent($event)">
+        <br>
+        <button
+         class="btn btn-primary"
+         (click)="onAddServer()">Add server</button>
+         <button
+         class="btn btn-primary"
+         (click)="onAddBlueprint()">Add server Blueprint</button>
+    </div>
+</div>
